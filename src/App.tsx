@@ -1,10 +1,14 @@
 import React from 'react';
-import './App.css';
 
 export const App: React.FC = () => {
   return (
-    <div className="App">
-      <h1>Round Robin Simulator Refactor with TS, TDD, React Hooks</h1>
-    </div>
+    <section className="hero is-dark is-fullheight">
+      <div className="hero-body">
+        <div className="container">
+          <h1 className="title">Round Robin Sim</h1>
+          <h2 className="subtitle">TypeScript, React, Hooks and Bulma</h2>
+        </div>
+      </div>
+    </section>
   );
 };
