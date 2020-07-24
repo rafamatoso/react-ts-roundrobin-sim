@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const App: React.FC = () => {
+export const Home: React.FC = () => {
   return (
     <section className="hero is-dark is-bold is-fullheight">
       <div className="hero-body">
